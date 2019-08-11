@@ -3,19 +3,14 @@
 int main()
 {
     int a,b,c;
-    printf("input a");
-    scanf("%d",&a);
-     printf("input b");
-    scanf("%d",&b);
-     printf("input c");
-    scanf("%d",&c);
+    clrscr();
+    printf("input a,b and c:");
+    scanf("%d%d%d",&a,&b,&c);
     if ((a>b)&&(a>c))
         printf("%d is a is big",a);
     else if((b>a)&&(b>c))
         printf("%d is big",b);
-        else
+    else
         printf("%d is big",c);
-    
-
-    return 0;
+    getch();
 }
